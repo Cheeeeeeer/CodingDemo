@@ -13,9 +13,9 @@ function setup(){
 function draw(){
   //background(255);
   video.loadPixels();
-for (let i=0;i<width;i+=10){
-  for (let p=0;p<height;p+=10){
-  let index = (i+p*width)*4;
+for (let i=0;i<video.width;i+=10){
+  for (let p=0;p<video.height;p+=10){
+  let index = (i+p*video.width)*4;
 
   let r = video.pixels[index];
   let g = video.pixels[index+1];
