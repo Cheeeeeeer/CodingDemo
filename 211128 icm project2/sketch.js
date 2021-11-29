@@ -17,9 +17,9 @@ function readyo(){
   print('ready');
 }
 
-// function windowResized(){
-//   resizeCanvas(windowWidth, windowHeight);
-// }
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
 
 function setup() {
   let cvs= createCanvas(windowWidth, windowHeight);
